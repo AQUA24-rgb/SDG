@@ -1,0 +1,102 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background: skyblue;
+}
+
+/* HEADER */
+header {
+  background: none;          /* Remove previous background */
+  height: auto;              /* Let image determine height */
+  padding: 0;
+}
+
+
+.subtitle {
+  color: #ddd;
+}
+
+/* HOME INFO CARDS */
+.info-card, .summary-card {
+  background: #0a97d9;
+  color: white;
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* SDG ICON GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.goal-card img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.goal-card:hover img {
+  transform: scale(1.08);
+}
+
+/* SDG SECTION STYLE */
+.sdg {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 40px 25px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.sdg h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.SDG {
+  width: 450px;      
+  height: 350px;     
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #0a97d9;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.back-button:hover {
+  background-color: lightblue;
+  transform: scale(1.05);
+}
+
+
+
